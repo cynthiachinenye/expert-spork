@@ -28,6 +28,13 @@ function App() {
       </form>
      </div>
     </div>
+     <div className="movies">
+       {
+        movies.map((movie)=>{
+          <MovieCard/>
+        })
+       }
+     </div>
       
     </div>
   );
