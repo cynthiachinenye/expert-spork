@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import {useEffect, useState} from 'react';
+
 
 function App() {
+  const API_URL = 'https://api.themoviedb.org/3/discover/movie?api_key=79d50d0b258ce81609b056767b5f5166'
+
+  const [movies, setMovies] = useState([])
+
+  useEffect(()=>{
+   fetch(API_URL)
+    .then(res => res.json())
+    .then(data => setMovies(data.results))
+       
+  },[])
+  console.log(movies)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="nav">
+     <div>
+     <h1>Movies</h1>
+     </div>
+     <div>
+      <form>
+      <input/>
+      <button>Search</button>
+      </form>
+     </div>
+    </div>
+      
     </div>
   );
 }
