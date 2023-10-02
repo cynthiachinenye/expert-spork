@@ -21,7 +21,7 @@ function App() {
      <div>
      <h1>Movies</h1>
      </div>
-     <div>
+     <div className="form-input"> 
       <form>
       <input/>
       <button>Search</button>
