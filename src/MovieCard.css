@@ -1,0 +1,36 @@
+h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  .form-input{
+    margin-left:50px;
+  }
+  input{
+    height:25px;
+    width:150px;
+    border:none;
+    border-radius:20px;
+  }
+  button{
+    width:60px;
+    height:25px;
+    border:none;
+    border-radius:20px;
+    margin-left:5px;
+  }
+  
+  .card{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:250px;
+    margin-right:24px;
+    margin-bottom:24px;
+    
+  }
+  .poster img{
+    width:250px;
+  
+  }
+  

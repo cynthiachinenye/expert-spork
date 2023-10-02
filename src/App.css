@@ -15,40 +15,10 @@
   padding:10px 0px;
 
 }
-h1{
-  font-size: 40px;
-  font-family: 'Courier New', Courier, monospace;
-  
-}
-.form-input{
-  margin-left:50px;
-}
-input{
-  height:25px;
-  width:150px;
-  border:none;
-  border-radius:20px;
-}
-button{
-  width:60px;
-  height:25px;
-  border:none;
-  border-radius:20px;
-  margin-left:5px;
-}
 .movies{
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  width:100%;
+  width:900px;
   flex-wrap:wrap;
-}
-.card{
-  display:flex;
-  flex-direction: column;
-  
-}
-.poster img{
-  width:200px;
-
 }
