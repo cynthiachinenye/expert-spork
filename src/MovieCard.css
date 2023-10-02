@@ -17,8 +17,9 @@
 } 
 .info{
   display:flex;
-  height:30px;
+  padding:5px;
   justify-content: space-between;
+  transform:translateY(-100%);
   
 }
 .overview{
