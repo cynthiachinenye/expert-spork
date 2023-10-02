@@ -1,40 +1,28 @@
-h1{
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    
-  }
-  .form-input{
-    margin-left:50px;
-  }
-  input{
-    height:25px;
-    width:150px;
-    border:none;
-    border-radius:20px;
-  }
-  button{
-    width:60px;
-    height:25px;
-    border:none;
-    border-radius:20px;
-    margin-left:5px;
-  }
+.card{
   
-  .card{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width:250px;
-    margin-right:24px;
-    margin-bottom:24px;
-    
-  }
-  .poster img{
-    width:250px;
+  display:flex;
+  margin:20px;
+
+}
+.container{
+  width: 250px;
+  display:flex;
+  background-color:rgb(91, 91, 235);
+  flex-direction:column;
   
-  }
-  .info{
-    background-color: rgb(113, 113, 231);
-    margin-top: 0px;
-  }
+
+}
+.poster img{
+  width:250px;
+} 
+.info{
+  display:flex;
+  height:30px;
+  justify-content: space-between;
   
+}
+.overview{
+  display: none;
+}
+
+

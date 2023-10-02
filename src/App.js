@@ -15,7 +15,7 @@ function App() {
     .then(data => setMovies(data.results))
        
   },[])
-  // console.log(movies)
+  console.log(movies)
   const handleSearch = (e) =>{
     e.preventDefault()
     console.log(API_SEARCH+`${term}`)
