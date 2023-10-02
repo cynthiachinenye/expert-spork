@@ -1,6 +1,6 @@
 import './App.css';
 import {useEffect, useState} from 'react';
-
+import MovieCard from './MovieCard';
 
 function App() {
   const API_URL = 'https://api.themoviedb.org/3/discover/movie?api_key=79d50d0b258ce81609b056767b5f5166'
@@ -30,9 +30,9 @@ function App() {
     </div>
      <div className="movies">
        {
-        movies.map((movie)=>{
-          <MovieCard/>
-        })
+        movies.map((movie)=>
+          <MovieCard {...movie}/>
+        )
        }
      </div>
       
