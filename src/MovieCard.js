@@ -15,7 +15,7 @@ const MovieCard = (props) => {
     </div>
     <div className="overview">
       <h2>Overview:</h2>
-      <h3>{props.overview}</h3>
+      <h3 className='h3'>{props.overview}</h3>
       </div>
     </div>
       

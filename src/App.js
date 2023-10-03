@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
     <div className="nav">
-     <div>
+     <div className='content'>
      <h1>Movies</h1>
      </div>
      <div className="form-input"> 
