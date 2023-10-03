@@ -7,7 +7,7 @@ const MovieCard = (props) => {
     <div className='card'>
     <div className='container'>
     <div className='poster'>
-    <img src= {`${API_IMG}${props.poster_path}`} alt=''/>
+    <img src= { props.poster_path? `${API_IMG}${props.poster_path}`: `https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmV0ZmxpeHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60`} alt=''/>
     </div>
     <div className='info'>
       <p className='title'>{props.title}</p>
